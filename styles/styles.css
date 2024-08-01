@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 :root{
-    --cor-primaria: #F3F5FC;
-    --cor-secundaria: #0A3871;
-    --cor-terciaria: #343A40;
+    --cor-primaria: #f7e9de;
+    --cor-secundaria: #202221;
+    --cor-terciaria: #c25968;
     --cor-quaternaria: #FFFFFF;
-    --cor-quintenaria: #D8DFE8;
-    --cor-seis: #495057;
-    --cor-hover: #0A3871;
+    --cor-quintenaria: #f2bcba;
+    --cor-seis: #202221;
+    --cor-hover: #c25968;
 
     --fonte-primaria: 'Inter', sans-serif;
 }
@@ -25,11 +25,12 @@ body {
 }
 
 .cabecalho {
-    padding: 1% 0 0 1%;
+    padding: 2% 1%;
 }
 
+
 .apresentacao {
-    margin: 2% 15%;
+    margin: 0 15%;
     display: flex;
     justify-content: space-between;
     height: 100vh;
@@ -87,7 +88,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid var(--cor-secundaria);
+    border: 2px solid var(--cor-terciaria);
     background-color: var(--cor-quintenaria);
     width: 328px; 
     height: 67px;
