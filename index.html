@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <style>
+        #copiarbotao{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="img/logo.png" alt="Logo letra 'a'">
+    </header>
+
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo1">
+            <textarea class="apresentacao__conteudo1__inserir" id="inputTexto" placeholder="Digite seu texto"></textarea>
+
+            <div class="apresentacao__botoes">
+                <p class="apresentacao__botoes__aviso">
+                    <img src="img/aviso.png" alt="Sinal de aviso">
+                    Apenas letras minúsculas e sem acento.
+                </p>
+                <div class="apresentacao__botoes__container">
+                    <button class="apresentacao__botoes__botao" id="criptografabotao">Criptografar</button>
+                    <button class="apresentacao__botoes__botao" id="descriptografabotao">Descriptografar</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="apresentacao__conteudo2">
+            <p class="apresentacao__conteudo2__resultado" id="resultadoTexto"> </p>
+            <img src="img/High quality products 1 1.png" alt="Ilustração" class="apresentacao__conteudo2__img">
+            <p class="apresentacao__conteudo2__texto" id="mensagemTexto">Nenhuma mensagem encontrada</p>
+            <p class="apresentacao__conteudo2__subtexto" id="mensagemSubtexto">Digite um texto que você deseja criptografar ou descriptografar.</p>
+
+        <button class="apresentacao__conteudo2__botao" id="copiarbotao">Copiar</button>
+        </section>
+    </main>
+    
+    <footer class="rodape">
+        <p>⋆˚࿔ Desenvolvido por Paolla Mezzenga 𝜗𝜚˚⋆</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
