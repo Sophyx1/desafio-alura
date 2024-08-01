@@ -36,11 +36,20 @@ function decodificar() {
     document.getElementById('mensagemTexto').style.display = 'none';
     document.querySelector('.apresentacao__conteudo2__img').style.display = 'none';
     document.getElementById('copiarbotao').style.display = 'block';
-
 }
 
 // Adiciona os eventos aos botões quando o DOM estiver carregado
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('criptografabotao').addEventListener('click', codificar);
     document.getElementById('descriptografabotao').addEventListener('click', decodificar);
+});
+
+document.getElementById('copiarbotao').addEventListener('click', function() {
+    const outputTexto = document.getElementById('resultadoTexto').textContent;
+    
+    navigator.clipboard.writeText(outputTexto).then(function() {
+        alert('Texto copiado para a área de transferência!');
+    }, function(err) {
+        console.error('Erro ao copiar o texto: ', err);
+    });
 });

@@ -111,7 +111,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     gap: 10px;
     background-color: var(--cor-quaternaria);
     padding: 20px;
@@ -131,7 +130,8 @@ body {
     color: var(--cor-terciaria);
     font-weight: 400;
     line-height: 36px;
-    text-align: left;
+    width: 100%; /* Garantir que ocupa toda a largura do contêiner */
+    text-align: left; /* Alinhar texto à esquerda */
 }
 
 .apresentacao__conteudo2__texto {
@@ -140,6 +140,8 @@ body {
     color: var(--cor-terciaria);
     font-weight: 700;
     line-height: 28.8px;
+    text-align: center; /* Centralizar apenas o subtexto */
+
 }
 
 .apresentacao__conteudo2__subtexto {
@@ -148,12 +150,13 @@ body {
     color: var(--cor-seis);
     font-weight: 400;
     line-height: 24px;
+    text-align: center; /* Centralizar apenas o subtexto */
 }
 
 .apresentacao__conteudo2__botao {
     margin-top: auto;
     display: flex;
-    justify-content: flex-start; /* Alterado para flex-start para evitar centralização vertical */
+    justify-content: flex-start;
     align-items: center;
     border: 2px solid var(--cor-secundaria);
     background-color: var(--cor-quaternaria);
