@@ -42,8 +42,8 @@ Não é necessário instalar nada! Para usar o projeto, basta:
 2. **Abrir o arquivo `index.html` em um navegador de sua escolha.**
 
 ```bash
-git clone https://github.com/usuario/decodificador-texto.git
-cd decodificador-texto
+git clone https://github.com/Sophyx1/desafio-alura.git
+cd desafio-alura
 ```
 ## 🤝 Contribuição
 
