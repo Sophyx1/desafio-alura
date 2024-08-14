@@ -70,13 +70,9 @@ Se você deseja contribuir para este projeto, siga os seguintes passos:
 
 5. **Abra um Pull Request para revisão.**
 
-## 📜 Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
 ## 📧 Contato
 
 Para dúvidas ou sugestões, entre em contato:
 
-- **GitHub**: [github.com/usuario](https://github.com/usuario)
+- **GitHub**: [github.com/usuario](https://github.com/Sophyx1)
 
