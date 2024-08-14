@@ -74,5 +74,5 @@ Se você deseja contribuir para este projeto, siga os seguintes passos:
 
 Para dúvidas ou sugestões, entre em contato:
 
-- **GitHub**: [github.com/usuario](https://github.com/Sophyx1)
+- **GitHub**: [github.com/Sophyx1](https://github.com/Sophyx1)
 
